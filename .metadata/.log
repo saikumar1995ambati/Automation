@@ -1,0 +1,192 @@
+!SESSION 2020-12-15 08:29:40.584 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-12-15 08:30:01.508
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-15 08:30:01.508
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1280bae3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@256a5df0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-15 08:30:11.471
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ambat'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 4 2020-12-15 08:41:52.139
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Java Model Status [TestNGTutorial+(1) does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2382)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2441)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:59)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:39)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-12-15 08:41:52.140
+!MESSAGE TestNGTutorial+(1) does not exist
+
+!ENTRY org.testng.eclipse 4 4 2020-12-15 08:41:52.213
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Java Model Status [TestNGTutorial+(1) does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2382)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2441)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:59)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:39)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-12-15 08:41:52.214
+!MESSAGE TestNGTutorial+(1) does not exist
+
+!ENTRY org.testng.eclipse 4 4 2020-12-15 08:41:52.839
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Java Model Status [TestNGTutorial+(1) does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2382)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2441)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:59)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:39)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-12-15 08:41:52.840
+!MESSAGE TestNGTutorial+(1) does not exist
+
+!ENTRY org.eclipse.jdt.launching 4 107 2020-12-15 08:42:09.892
+!MESSAGE Launch configuration TestNGTutorial+(1)_TestNGTutorial.testng.xml references non-existing project TestNGTutorial+(1).
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:42:32.228
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53352 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53352 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:43:14.788
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53356 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng2.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53356 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:44:00.187
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53367 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\AppData\Local\Temp\testng-eclipse-504926767\testng-customsuite.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53367 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\AppData\Local\Temp\testng-eclipse-504926767\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:44:15.858
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53370 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\AppData\Local\Temp\testng-eclipse-415462519\testng-customsuite.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53370 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\AppData\Local\Temp\testng-eclipse-415462519\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:44:52.607
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53373 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53373 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:46:27.247
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53405 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+java -ea -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53405 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-12-15 08:47:29.125
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea -Dtestng.dtd.http=true
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53408 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+java -ea -Dtestng.dtd.http=true -classpath C:\Users\ambat\eclipse\java-2020-09\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\bin:C:\Users\ambat\.p2\pool\plugins\org.testng_7.3.0.r202008060316.jar:C:\Users\ambat\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\ambat\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\ambat\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 53408 -protocol json -d C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\test-output C:\Users\ambat\Downloads\TestNGTutorial+(1)\TestNGTutorial\testng3.xml
+!SESSION 2020-12-15 22:20:45.166 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-12-15 22:21:06.499
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-15 22:21:06.499
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@484b5a21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16e5344c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-15 22:21:12.461
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ambat'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
